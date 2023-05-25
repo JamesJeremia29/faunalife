@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "4cfa89fb65888a567208770834d2a54a",
+    "format" : "model",
+    "displayName" : "dinoIdle.usdz"
+  },
+  {
+    "libraryIdentifier" : "82e5fd48b7954321c8ae71d598d782cb",
+    "format" : "model",
+    "displayName" : "roarDino.usdz"
+  },
+  {
+    "libraryIdentifier" : "a3d024a3e1cab7fdffe4cc6daadd54f3",
+    "format" : "audio",
+    "displayName" : "Trex_Roar.mp3"
+  },
+  {
+    "libraryIdentifier" : "ada19140498398a5a5ce4288a8e2dd2c",
+    "format" : "audio",
+    "displayName" : "dinoRoar.mp3"
+  }
+]

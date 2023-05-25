@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2411D0032A1CFA1300ADCC49 /* DinoAllosaurus.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2411D0022A1CFA1300ADCC49 /* DinoAllosaurus.rcproject */; };
+		2411D0052A1CFC9800ADCC49 /* Unavailable.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2411D0042A1CFC9800ADCC49 /* Unavailable.rcproject */; };
+		2411D0072A1DA9CB00ADCC49 /* redPandaIdle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2411D0062A1DA9CB00ADCC49 /* redPandaIdle.usdz */; };
+		2411D0092A1DAA1900ADCC49 /* DinoAllosaurus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2411D0082A1DAA1900ADCC49 /* DinoAllosaurus.usdz */; };
+		2411D00E2A1EFE4700ADCC49 /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411D00D2A1EFE4700ADCC49 /* WarningView.swift */; };
+		2411D0102A1F244500ADCC49 /* InfoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2411D00F2A1F244500ADCC49 /* InfoPageView.swift */; };
+		244D5D382A147E87004029C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D5D372A147E87004029C4 /* AppDelegate.swift */; };
+		244D5D3A2A147E87004029C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D5D392A147E87004029C4 /* ContentView.swift */; };
+		244D5D3E2A147E88004029C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244D5D3D2A147E88004029C4 /* Assets.xcassets */; };
+		244D5D412A147E88004029C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244D5D402A147E88004029C4 /* Preview Assets.xcassets */; };
+		244D5D4D2A15C6FB004029C4 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D5D4C2A15C6FB004029C4 /* ARViewContainer.swift */; };
+		244D5D5F2A18A2EC004029C4 /* ModelViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D5D5E2A18A2EC004029C4 /* ModelViewPicker.swift */; };
+		244D5D652A18B202004029C4 /* PlacementButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D5D642A18B202004029C4 /* PlacementButtonView.swift */; };
+		244D5D6A2A190EFC004029C4 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 244D5D692A190EFC004029C4 /* FocusEntity */; };
+		244D5D6C2A190F48004029C4 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D5D6B2A190F48004029C4 /* FocusSquare.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2411D0022A1CFA1300ADCC49 /* DinoAllosaurus.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = DinoAllosaurus.rcproject; sourceTree = "<group>"; };
+		2411D0042A1CFC9800ADCC49 /* Unavailable.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Unavailable.rcproject; sourceTree = "<group>"; };
+		2411D0062A1DA9CB00ADCC49 /* redPandaIdle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = redPandaIdle.usdz; sourceTree = "<group>"; };
+		2411D0082A1DAA1900ADCC49 /* DinoAllosaurus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = DinoAllosaurus.usdz; sourceTree = "<group>"; };
+		2411D00D2A1EFE4700ADCC49 /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		2411D00F2A1F244500ADCC49 /* InfoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageView.swift; sourceTree = "<group>"; };
+		244D5D342A147E87004029C4 /* faunalife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faunalife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244D5D372A147E87004029C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		244D5D392A147E87004029C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		244D5D3D2A147E88004029C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244D5D402A147E88004029C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		244D5D4C2A15C6FB004029C4 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		244D5D5E2A18A2EC004029C4 /* ModelViewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewPicker.swift; sourceTree = "<group>"; };
+		244D5D642A18B202004029C4 /* PlacementButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonView.swift; sourceTree = "<group>"; };
+		244D5D6B2A190F48004029C4 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244D5D312A147E87004029C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D5D6A2A190EFC004029C4 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2411D00A2A1DABB900ADCC49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2411D00C2A1DABDD00ADCC49 /* ARScene */,
+				2411D00B2A1DABCB00ADCC49 /* ARObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2411D00B2A1DABCB00ADCC49 /* ARObject */ = {
+			isa = PBXGroup;
+			children = (
+				2411D0082A1DAA1900ADCC49 /* DinoAllosaurus.usdz */,
+				2411D0062A1DA9CB00ADCC49 /* redPandaIdle.usdz */,
+			);
+			path = ARObject;
+			sourceTree = "<group>";
+		};
+		2411D00C2A1DABDD00ADCC49 /* ARScene */ = {
+			isa = PBXGroup;
+			children = (
+				2411D0022A1CFA1300ADCC49 /* DinoAllosaurus.rcproject */,
+				2411D0042A1CFC9800ADCC49 /* Unavailable.rcproject */,
+			);
+			path = ARScene;
+			sourceTree = "<group>";
+		};
+		2411D0132A1FB18F00ADCC49 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				244D5D6B2A190F48004029C4 /* FocusSquare.swift */,
+				244D5D4C2A15C6FB004029C4 /* ARViewContainer.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2411D0142A1FB1C500ADCC49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2411D0162A1FB1DE00ADCC49 /* Presenters */,
+				2411D0152A1FB1D300ADCC49 /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2411D0152A1FB1D300ADCC49 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2411D00F2A1F244500ADCC49 /* InfoPageView.swift */,
+				244D5D5E2A18A2EC004029C4 /* ModelViewPicker.swift */,
+				244D5D642A18B202004029C4 /* PlacementButtonView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		2411D0162A1FB1DE00ADCC49 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				244D5D392A147E87004029C4 /* ContentView.swift */,
+				2411D00D2A1EFE4700ADCC49 /* WarningView.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		244D5D2B2A147E87004029C4 = {
+			isa = PBXGroup;
+			children = (
+				244D5D362A147E87004029C4 /* faunalife */,
+				244D5D352A147E87004029C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244D5D352A147E87004029C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244D5D342A147E87004029C4 /* faunalife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244D5D362A147E87004029C4 /* faunalife */ = {
+			isa = PBXGroup;
+			children = (
+				2411D0142A1FB1C500ADCC49 /* View */,
+				2411D0132A1FB18F00ADCC49 /* ViewModel */,
+				2411D00A2A1DABB900ADCC49 /* Model */,
+				244D5D372A147E87004029C4 /* AppDelegate.swift */,
+				244D5D3D2A147E88004029C4 /* Assets.xcassets */,
+				244D5D3F2A147E88004029C4 /* Preview Content */,
+			);
+			path = faunalife;
+			sourceTree = "<group>";
+		};
+		244D5D3F2A147E88004029C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				244D5D402A147E88004029C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244D5D332A147E87004029C4 /* faunalife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244D5D442A147E88004029C4 /* Build configuration list for PBXNativeTarget "faunalife" */;
+			buildPhases = (
+				244D5D302A147E87004029C4 /* Sources */,
+				244D5D312A147E87004029C4 /* Frameworks */,
+				244D5D322A147E87004029C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = faunalife;
+			packageProductDependencies = (
+				244D5D692A190EFC004029C4 /* FocusEntity */,
+			);
+			productName = faunalife;
+			productReference = 244D5D342A147E87004029C4 /* faunalife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244D5D2C2A147E87004029C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					244D5D332A147E87004029C4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 244D5D2F2A147E87004029C4 /* Build configuration list for PBXProject "faunalife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244D5D2B2A147E87004029C4;
+			packageReferences = (
+				244D5D682A190EFC004029C4 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 244D5D352A147E87004029C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244D5D332A147E87004029C4 /* faunalife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244D5D322A147E87004029C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2411D0092A1DAA1900ADCC49 /* DinoAllosaurus.usdz in Resources */,
+				244D5D412A147E88004029C4 /* Preview Assets.xcassets in Resources */,
+				2411D0072A1DA9CB00ADCC49 /* redPandaIdle.usdz in Resources */,
+				244D5D3E2A147E88004029C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244D5D302A147E87004029C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D5D652A18B202004029C4 /* PlacementButtonView.swift in Sources */,
+				2411D0102A1F244500ADCC49 /* InfoPageView.swift in Sources */,
+				244D5D3A2A147E87004029C4 /* ContentView.swift in Sources */,
+				2411D00E2A1EFE4700ADCC49 /* WarningView.swift in Sources */,
+				2411D0052A1CFC9800ADCC49 /* Unavailable.rcproject in Sources */,
+				2411D0032A1CFA1300ADCC49 /* DinoAllosaurus.rcproject in Sources */,
+				244D5D4D2A15C6FB004029C4 /* ARViewContainer.swift in Sources */,
+				244D5D5F2A18A2EC004029C4 /* ModelViewPicker.swift in Sources */,
+				244D5D6C2A190F48004029C4 /* FocusSquare.swift in Sources */,
+				244D5D382A147E87004029C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		244D5D422A147E88004029C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		244D5D432A147E88004029C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244D5D452A147E88004029C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"faunalife/Preview Content\"";
+				DEVELOPMENT_TEAM = LM2SWXFAWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.faunalife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244D5D462A147E88004029C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"faunalife/Preview Content\"";
+				DEVELOPMENT_TEAM = LM2SWXFAWT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.faunalife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244D5D2F2A147E87004029C4 /* Build configuration list for PBXProject "faunalife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D5D422A147E88004029C4 /* Debug */,
+				244D5D432A147E88004029C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244D5D442A147E88004029C4 /* Build configuration list for PBXNativeTarget "faunalife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244D5D452A147E88004029C4 /* Debug */,
+				244D5D462A147E88004029C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		244D5D682A190EFC004029C4 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		244D5D692A190EFC004029C4 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 244D5D682A190EFC004029C4 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 244D5D2C2A147E87004029C4 /* Project object */;
+}
